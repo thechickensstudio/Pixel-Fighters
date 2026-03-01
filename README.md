@@ -2,6 +2,10 @@
 
 A 2D fighting game built with Python and Pygame.
 
+🌐 **Play Pixel Fighters Online**  
+The game is available to play directly in your browser:  
+https://thechickensstudio.github.io/Pixel-Fighters/
+
 ## Features
 
 - **2-Player Local Multiplayer**: Battle against a friend on the same computer
@@ -189,6 +193,6 @@ Possible features to add:
 
 ## Credits
 
-Built with Python, Pygame and AI by Hjälmar and Daniel.
+Built with Python, Pygame and AI by Hjalmar and Daniel.
 
 Enjoy the game!
