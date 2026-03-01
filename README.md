@@ -1,6 +1,6 @@
 # Pixel Fighters
 
-A Super Smash Brothers-style 2D fighting game built with Python and Pygame.
+A 2D fighting game built with Python and Pygame.
 
 ## Features
 
@@ -189,7 +189,6 @@ Possible features to add:
 
 ## Credits
 
-Built with Python and Pygame.
-Pixel art assets for characters and environments.
+Built with Python, Pygame and AI by Hjälmar and Daniel.
 
 Enjoy the game!
