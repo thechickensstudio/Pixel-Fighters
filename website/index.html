@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Fighters - A 2D Fighting Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🎮 Pixel Fighters</h1>
+            <p class="tagline">A Super Smash Bros-style 2D fighting game built with Python & Pygame</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Game Embed Section -->
+        <section class="game-section">
+            <h2>Play Now in Your Browser!</h2>
+            <div class="game-container">
+                <iframe src="game/index.html" 
+                        width="1200" 
+                        height="700" 
+                        frameborder="0" 
+                        scrolling="no"
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <p class="note">Loading may take a few moments. The game requires a keyboard to play.</p>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🎯 2-Player Battle</h3>
+                    <p>Local multiplayer action - grab a friend and fight!</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎭 4 Unique Characters</h3>
+                    <p>Choose from Mask Dude, Ninja Frog, Pink Man, or Virtual Guy</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚔️ Physics-Based Combat</h3>
+                    <p>Realistic knockback that scales with damage percentage</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎪 3 Unique Stages</h3>
+                    <p>Fight across different platform layouts with traps and hazards</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💥 Traps & Hazards</h3>
+                    <p>Dodge fire, spike heads, and falling rock heads</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🍎 Power-ups</h3>
+                    <p>Collect fruits for temporary double damage</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔊 Sound & Music</h3>
+                    <p>Immersive audio with sound effects and background music</p>
+                </div>
+                <div class="feature-card">
+                    <h3>✨ Smooth Animations</h3>
+                    <p>Fluid character animations for all actions</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Controls Section -->
+        <section class="controls">
+            <h2>Controls</h2>
+            <div class="controls-grid">
+                <div class="player-controls">
+                    <h3>Player 1 (Red)</h3>
+                    <ul>
+                        <li><kbd>A</kbd> / <kbd>D</kbd> - Move left/right</li>
+                        <li><kbd>W</kbd> - Jump (press again in air for double jump)</li>
+                        <li><kbd>F</kbd> - Attack</li>
+                    </ul>
+                </div>
+                <div class="player-controls">
+                    <h3>Player 2 (Blue)</h3>
+                    <ul>
+                        <li><kbd>←</kbd> / <kbd>→</kbd> - Move left/right</li>
+                        <li><kbd>↑</kbd> - Jump (press again in air for double jump)</li>
+                        <li><kbd>,</kbd> - Attack</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="controls-note"><kbd>ESC</kbd> - Return to character selection</p>
+        </section>
+
+        <!-- How to Play Section -->
+        <section class="how-to-play">
+            <h2>How to Play</h2>
+            <div class="gameplay-info">
+                <div class="info-item">
+                    <h4>Objective</h4>
+                    <p>Knock your opponent off the stage to score a KO! Each player has 3 lives.</p>
+                </div>
+                <div class="info-item">
+                    <h4>Damage System</h4>
+                    <p>Each hit increases your opponent's damage percentage. Higher damage means stronger knockback when hit - just like Super Smash Bros!</p>
+                </div>
+                <div class="info-item">
+                    <h4>Hazards</h4>
+                    <p><strong>Fire:</strong> Deals 10% damage on contact<br>
+                       <strong>Spike Heads:</strong> Instant death - lose a life!<br>
+                       <strong>Rock Heads:</strong> Falling hazards that kill on impact</p>
+                </div>
+                <div class="info-item">
+                    <h4>Power-ups</h4>
+                    <p>Collect falling fruits to gain double damage for 10 seconds! Use this time to deal massive knockback.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section class="download">
+            <h2>Download & Run Locally</h2>
+            <p>Want to play offline or customize the game? Download the source code:</p>
+            <div class="download-buttons">
+                <a href="https://github.com/yourusername/pixel-fighters" class="btn btn-primary" target="_blank">
+                    View on GitHub
+                </a>
+                <a href="#" class="btn btn-secondary">
+                    Download ZIP
+                </a>
+            </div>
+            <div class="install-instructions">
+                <h4>Quick Start (Linux/Mac):</h4>
+                <pre><code>bash setup.sh
+bash run.sh</code></pre>
+                <h4>Windows:</h4>
+                <pre><code>setup.bat
+run.bat</code></pre>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <h2>About</h2>
+            <p>Pixel Fighters is a passion project built with Python and Pygame, inspired by the Super Smash Bros series. It features physics-based combat, multiple characters and stages, and a complete sound system.</p>
+            <p>The game is open source and available for anyone to play, modify, and learn from!</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pixel Fighters. Built with Python & Pygame. Open Source.</p>
+            <p>Have fun and may the best fighter win!</p>
+        </div>
+    </footer>
+</body>
+</html>
